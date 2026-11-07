@@ -1,0 +1,7 @@
+spring.application.name=campus-club-hub
+server.port=8080
+spring.datasource.url=jdbc:mysql://localhost:3306/college_club_management?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata
+spring.datasource.username=${DB_USERNAME:root}
+spring.datasource.password=${DB_PASSWORD:your_mysql_password}
+spring.sql.init.mode=never
+spring.jackson.time-zone=Asia/Kolkata
